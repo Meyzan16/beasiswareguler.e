@@ -7,7 +7,7 @@
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title" style="text-align: center;">Data Diri</h4>
-                  <form class="forms-sample" action="/form_pendaftaran/simpan_data" method="post" enctype="multipart/form-data">
+        <for class="forms-sample" action="/form_pendaftaran/simpan_data" method="post" enctype="multipart/form-data">
                   <?= csrf_field(); ?>
                         <div class="row">
                               <div class="form-group col-md-6"">
@@ -330,8 +330,8 @@
                               <button type="submit" class="btn btn-primary mr-2 float-right"  onclick="return confirm('Apakah data anda sudah benar ?')">Submit</button>
                               <a  href="/Dashboard" type="button" class="btn btn-warning float-left">Kembali</a
                            <?php } ?>
-                      
-                  </form>
+                           
+        </form>
                   
                 </div>
               </div>
